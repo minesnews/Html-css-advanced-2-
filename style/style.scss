@@ -6,14 +6,6 @@
     padding: 0;
 }
 
-@font-face {
-    font-family: "Lato";
-    src: url('698242188-Lato-Bla.eot');
-    src: url('698242188-Lato-Bla.eot?#iefix') format('embedded-opentype'), url('698242188-Lato-Bla.svg#Lato Black') format('svg'), url('698242188-Lato-Bla.woff') format('woff'), url('698242188-Lato-Bla.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     font-family: "Lato", sans-serif;
     scroll-behavior: smooth;
@@ -27,7 +19,6 @@ a {
     text-decoration: none;
 }
 
-// summary::webkit-details-marker {
 summary::webkit-details-marker {
     display: none;
 }
@@ -84,6 +75,9 @@ summary {
                 color: #F16D7F;
                 font-weight: bold;
             }
+        }
+        &__title {
+            color: #636363;
         }
     }
 }
@@ -343,11 +337,10 @@ summary {
                             border: solid #FFFFFF 1px;
                             background: transparent;
                             cursor: pointer;
-                            &__img {
-                                // width: 24px;
-                                width: 100%;
-                                height: 100%;
-                            }
+                        }
+                        &__img {
+                            width: 100%;
+                            height: 100%;
                         }
                     }
                     &__itemHover:hover {

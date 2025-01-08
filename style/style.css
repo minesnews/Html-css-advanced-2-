@@ -3,13 +3,6 @@
   padding: 0;
 }
 
-@font-face {
-  font-family: "Lato";
-  src: url("698242188-Lato-Bla.eot");
-  src: url("698242188-Lato-Bla.eot?#iefix") format("embedded-opentype"), url("698242188-Lato-Bla.svg#Lato Black") format("svg"), url("698242188-Lato-Bla.woff") format("woff"), url("698242188-Lato-Bla.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 body {
   font-family: "Lato", sans-serif;
   scroll-behavior: smooth;
@@ -89,6 +82,9 @@ summary {
 .up__content__breadcrumbs__title {
   color: #F16D7F;
   font-weight: bold;
+}
+.up__content__title {
+  color: #636363;
 }
 
 .filter-sort {
@@ -349,7 +345,7 @@ summary {
   background: transparent;
   cursor: pointer;
 }
-.main__product__content__card__image__itemHover__buy-button__img {
+.main__product__content__card__image__itemHover__img {
   width: 100%;
   height: 100%;
 }
